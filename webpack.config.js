@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   // set mode for bundle
-  mode: 'development',
+  mode: 'production',
   // define entry point
   entry: path.join(__dirname, '/client/src/index.jsx'),
   // define output location and file name

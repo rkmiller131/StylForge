@@ -4,10 +4,11 @@
   "description": "Front end capstone group project. Contributors: Yanting Luo, Jack Martinuzzi, Rachel Miller, Anthony Tzeng",
   "main": "index.js",
   "scripts": {
+    "start": "node server/index.js",
     "test": "jest --env=jsdom",
     "server-dev": "npx nodemon --watch server server/index.js",
     "client-dev": "npx webpack --watch",
-    "build": "webpack"
+    "build": "npx webpack"
   },
   "repository": {
     "type": "git",
